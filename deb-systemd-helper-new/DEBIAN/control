@@ -1,0 +1,12 @@
+Package: deb-systemd-helper-new
+Version: 0.1.94
+Section: misc
+Priority: extra
+Architecture: all
+Maintainer: Jakobus Schürz <jakob@schuerz.at>
+Homepage: http://github.com/xundeenergie/deb-systemd-helper-new
+Provides: deb-systemd-helper-new
+Depends: 
+Recommends: 
+Description: deb-systemd-helper-new is the same as deb-systemd-helper, but extended for instantiated services
+ The original deb-systemd-helper does not support instantiated services to install, remove or purge. (Have a look at https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=801822). This is a try to support normal and instantiated services like foo@.service. It does not replace the original, it only installes a new script "deb-systemd-helper-new" you can use instead of "deb-systemd-helper" in your packages, if you want to provide such services to be activated/deactivated on de/install-time with dpkg.
