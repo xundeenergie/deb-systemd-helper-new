@@ -1,5 +1,5 @@
 Package: deb-systemd-helper-new
-Version: 0.1.94
+Version: 0.1.96
 Section: misc
 Priority: extra
 Architecture: all
